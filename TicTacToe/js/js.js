@@ -7,7 +7,7 @@ $(document).ready(function(){
         $('.welcomeMessage').show();
         $('html body').css('overflow', 'hidden');
 
-        setTimeout(hideWindow, 5000);
+        setTimeout(hideWindow, 10000);
     }
    //  showWindow()
 
