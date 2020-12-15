@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div class="welcomeMessage">
+        <div id="popUpBox">
+            <button id="start">Start</button>
+            <div id="popUp">Welcome! <br><br> Are you ready?</div>
+        </div>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="container">
+            <h3 id="player"></h3>
+        </div>
+
+        <h4 id="message"></h4>
+
+        <button onClick="restartGame()" id="restartGame">Restart Game</button>
+
+        <div class="gridContainer" id="gridContainer">
+            <div class="gridItem" id="cellZero" data-index="0"></div>
+            <div class="gridItem" id="cellOne" data-index="1"></div>
+            <div class="gridItem" id="cellTwo" data-index="2"></div>
+            <div class="gridItem" id="cellThree" data-index="3"></div>
+            <div class="gridItem" id="cellFour" data-index="4"></div>
+            <div class="gridItem" id="cellFive" data-index="5"></div>
+            <div class="gridItem" id="cellSix" data-index="6"></div>
+            <div class="gridItem" id="cellSeven" data-index="7"></div>
+            <div class="gridItem" id="cellEight" data-index="8"></div>
+        </div>
+
+    
+    </div>
+
+
+    <script src="js/js.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+    </body>
+</html>
